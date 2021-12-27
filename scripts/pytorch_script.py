@@ -1,5 +1,6 @@
 # %% Testung modules: inspired by the coding handbook.
 from src.testscript import test_function, test_function2, test_function3
+from src.deterministic_behavior import set_seeds
 # run pip install -e . to install src
 test_function()
 test_function2()

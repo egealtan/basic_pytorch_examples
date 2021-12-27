@@ -1,0 +1,31 @@
+ConvNet(
+  (layer1): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (fc): Linear(in_features=1568, out_features=10, bias=True)
+)
+Loss after 03072 examples: 0.472
+Loss after 06272 examples: 0.246
+Loss after 09472 examples: 0.077
+Loss after 12640 examples: 0.195
+Loss after 15840 examples: 0.055
+Loss after 19040 examples: 0.101
+Loss after 22240 examples: 0.123
+Loss after 25408 examples: 0.096
+Loss after 28608 examples: 0.016
+Loss after 31808 examples: 0.095
+Loss after 35008 examples: 0.023
+Loss after 38176 examples: 0.018
+Loss after 41376 examples: 0.037
+Loss after 44576 examples: 0.050
+Loss after 47776 examples: 0.074
+Loss after 50944 examples: 0.016
+Loss after 54144 examples: 0.046
+Loss after 57344 examples: 0.061

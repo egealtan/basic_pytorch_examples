@@ -1,0 +1,34 @@
+{
+    "os": "Linux-4.15.0-109-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.11",
+    "heartbeatAt": "2021-12-27T19:59:22.535993",
+    "startedAt": "2021-12-27T19:59:17.371306",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"5508a2e3-7ed1-46b1-ace3-88b14bf0b11e\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=/tmp/tmp-249IwcQ81I2laqf.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/egealtan/basic_pytorch_examples.git",
+        "commit": "20297cbad2f4681f13449b0fad2790fa84810b18"
+    },
+    "email": "egealtan+github@gmail.com",
+    "root": "/workspaces/basic_pytorch_examples",
+    "host": "1e130248131d",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}
