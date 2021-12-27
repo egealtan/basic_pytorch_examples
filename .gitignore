@@ -1,1 +1,3 @@
 *.egg-info
+/scripts/wandb/
+/scripts/wandb-debug.log/
