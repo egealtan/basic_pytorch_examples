@@ -1,6 +1,6 @@
 # basic_pytorch_examples
 
-Basic AE, mingling with Weights and Biases.
+Basic AE, mingling with Weights and Biases dashboard.
 
 ---
 
