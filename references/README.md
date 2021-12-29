@@ -22,4 +22,24 @@ train_size = int(0.8 * len(full_dataset))
 test_size = len(full_dataset) - train_size
 train_dataset, test_dataset = torch.utils.data.random_split(full_dataset, [train_size, test_size])
 ```
+Official WandB:
+- https://github.com/wandb/examples/tree/master/colabs --> scroll down, amazing resources
+- https://colab.research.google.com/github/wandb/examples/blob/master/colabs/pytorch/Simple_PyTorch_Integration.ipynb#scrollTo=eY39JyftGYqA
+- https://colab.research.google.com/github/wandb/examples/blob/master/colabs/pytorch/Organizing_Hyperparameter_Sweeps_in_PyTorch_with_W%26B.ipynb#scrollTo=rHpan13W6UZD
+- https://colab.research.google.com/github/wandb/examples/blob/master/colabs/wandb-log/Configs_in_W%26B.ipynb
+
+
+Cookiecutter DS: https://drivendata.github.io/cookiecutter-data-science/
+
+Good Research Principles: https://goodresearch.dev/docs.html
+
+Sphinx: https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+
+Carpentry:
+- Git: https://swcarpentry.github.io/git-novice/
+- Shell: https://swcarpentry.github.io/shell-novice/
+
+Math for ML: https://gwthomas.github.io/docs/math4ml.pdf
+
+Dataset versioning with WandB: https://colab.research.google.com/github/wandb/examples/blob/master/colabs/boosting/Credit_Scorecards_with_XGBoost_and_W%26B.ipynb
 
